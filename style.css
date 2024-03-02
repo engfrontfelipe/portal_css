@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+}
+
+.container li a {
+    color: white;
+    padding: 8px;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-size: 32px;
+
+}
+header li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header li a:hover {
+    font-weight: 800;
+    font: 15px;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.articles img{
+    /* height: 180px; */
+    width: 100%;
+    max-height: 350px;
+}
+.articles article{
+    width: 30%; 
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top:8px;
+    margin-bottom: 8px;
+
+}
+.articles article a{
+    background-color: #2f3640;
+    color: white;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 10px;   
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.articles article a:hover {
+    padding: 8px;
+    
+}
+
+.articles article p, 
+.articles article a {
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+.articles article h3{
+    font-size: 24px;
+}
+#sports{
+    background-color: rgba(0, 128, 0, 0.151) ;
+}
+#economy{
+    background-color: rgba(255, 255, 0, 0.281);
+
+}
+#economy .articles article a{
+    background-color: white;
+    color: black;
+
+}
+
+#tecnology{
+    background-color: rgb(44, 44, 92);
+    color: white;
+
+}
+#entertainment{
+    background-color: brown;
+    color: aliceblue;
+
+}
+#entertainment a {
+    background-color: rgb(68, 10, 0);
+}
+
+/* position fixed = manter a posiçap independente da rolagem do scroll 
+position relative = mover o conteudo apenas de do pai 
+position absolute = jogar em qualquer lugar do site. */
